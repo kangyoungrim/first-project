@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* RESET */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,
+em,img,ins,kbd,q,samp,small,strong,sub,sup,var,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section,summary,time,mark,audio,video,input{ margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;font-style:normal; }
+body{line-height:1.2;word-break:break-all}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav,ul,li{list-style:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;color:#333}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #f2f2f2;margin:15px 0 20px;padding:0}
+input,select{vertical-align:middle}
+html{font-size:13px}
+caption{overflow:hidden;visibility:hidden;width:0;height:0;font-size:1px}
+img { vertical-align:top; }
+html,body{height:100%;background:#f4f4f4}
+button{background: transparent;}
+*{font-family: 'Malgun Gothic', sans-serif;}
+.b{font-weight: bold !important;}
+
+.hide {position:absolute; left:-9999px; top:-9999px; font-size:0; line-height:0; height:0; overflow:hidden;}
+
+header, section, footer{position:relative;width:100%;min-width:1200px;margin:0 auto;}
+
+header{height: 1242px;background: url(../images/header.jpg) no-repeat center top;}
+
+#s1{height: 1652px;background: url(../images/s1.jpg) no-repeat center top;}
+  #s1 a{position: absolute;bottom:66px;left:50%;margin-left:-215px;width:430px;height: 92px;display: inline-block;}
+#s2{height: 1509px;background: url(../images/s2.jpg) no-repeat center top;}
+
+ #btnMore{position:fixed;bottom:0}
+   #btnMore a{width:100%;min-width:1200px;margin:0 auto;height: 141px;display: inline-block;background:#273b06 url(../images/btn_view.jpg) no-repeat center top;}
+   #btnMore div{display: none;width:100%;min-width:1200px;margin:0 auto;text-align: center;background: #fff}
+
+   #btnMore.on a{background:#273b06 url(../images/btn_view.jpg) no-repeat center top;}
+   #btnMore.on div{display: block;}
+
+.footer_btn{position: fixed;bottom:0;width:100%;min-width:1200px;margin:0 auto;height: 100px;display: inline-block;background:#273b06 url(../images/btn_view.jpg) no-repeat center top;}
+  .footer_btn a{display:block;width:100%;height:100%;}
+
+footer{width:100%;min-width:1200px;margin:0 auto;background:#ededed}
+  footer>div{width:1200px;margin:0 auto;padding:50px 0 200px;letter-spacing: -0.08em}
+
+  footer>div p.tit{padding:0 0 10px 13px;font-size:21px;font-weight: bold;line-height: 29px;}
+
+  footer>div ul{margin-bottom:30px;}
+  footer>div ul li{padding-bottom:5px;font-size:18px;line-height: 29px;color:#919191;padding-left:13px;text-indent: -13px;}
+
+  footer>div ul.info li{font-size:42px;padding-bottom:10px;line-height: 58px;letter-spacing: -0.1em;padding-left:24px;text-indent: -24px;}
+  footer>div ul.info li.ac1{line-height: 58px;padding-left:42px;text-indent: -42px;}
+  footer>div ul.info li.ac2{line-height: 58px;padding-left:24px;text-indent: -24px;}
+
+  footer>div p{font-size:30px;color:#919191;letter-spacing: -0.1em}
